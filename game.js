@@ -39,7 +39,7 @@ const grass = new THREE.Mesh(
     })
 );
 
-grass.rotation.x = -Math.PI / 4;
+grass.rotation.x = -Math.PI / 2;
 grass.receiveShadow = true;
 
 scene.add(grass);
